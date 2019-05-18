@@ -1,0 +1,49 @@
+body {
+  /* All of this part concerns the body of the html */
+font-size: 10pt;
+font-family: verdana,geneva,arial,helvetica,sans-seif;
+color: blue;
+line-height: 14ptp;
+padding-left: 5pt;
+padding-right:  5pt;
+padding-top: 5pt;
+}
+div {
+  /* This is the part that control the box*/
+  background-color: orange;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 30px;
+}
+h1 {
+  /* As you can guess,this concerns the major headline in the html document */
+font: 20pt verdana,geneva,arial,helvetica,sans-serif;
+font-weight: bold;
+line-height: 20pt;
+color: red;
+position: center;
+}
+
+img { /* This part regulates the images section. All those two images are controlled here*/
+height: auto;
+width: auto;
+padding: 0in;
+float: right;
+}
+a {
+text-decoration: black;
+}
+a :link,a:visited {
+color: green;
+}
+a:hover, a:active {
+color: orange;
+}
+footer {
+font-size: 9pt;
+font-style: italic;
+line-height: 12pt;
+text-align: center;
+padding-top: 30pt
+}
